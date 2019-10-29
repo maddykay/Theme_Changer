@@ -14,7 +14,6 @@ body {font-size:16px;}
 </style>
 <body>
 
-<!-- Sidebar/menu -->
 <div class="theme_button">
   <div class="w3-button themeChange regular">Regular</div>
   <div class="w3-button themeChange blue">Blue</div>
@@ -35,26 +34,21 @@ body {font-size:16px;}
   </div>
 </nav>
 
-<!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
   <span>Company Name</span>
 </header>
 
-<!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
-  <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <h1 class="w3-jumbo"><b>Interior Design</b></h1>
     <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
   </div>
 
-  <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-half">
       <img src="https://www.w3schools.com/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
@@ -69,7 +63,6 @@ body {font-size:16px;}
     </div>
   </div>
 
-  <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
     <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
     <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
@@ -78,7 +71,6 @@ body {font-size:16px;}
     </div>
   </div>
 
-  <!-- Services -->
   <div class="w3-container" id="services" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
@@ -89,7 +81,6 @@ body {font-size:16px;}
     </p>
   </div>
 
-  <!-- Designers -->
   <div class="w3-container" id="designers" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Designers.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
@@ -101,7 +92,6 @@ body {font-size:16px;}
     <p><b>Our designers are thoughtfully chosen</b>:</p>
   </div>
 
-  <!-- The Team -->
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
@@ -135,7 +125,6 @@ body {font-size:16px;}
     </div>
   </div>
 
-  <!-- Packages / Pricing Tables -->
   <div class="w3-container" id="packages" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
@@ -180,7 +169,7 @@ body {font-size:16px;}
     </div>
   </div>
 
-  <!-- Contact -->
+
   <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
@@ -202,10 +191,8 @@ body {font-size:16px;}
     </form>
   </div>
 
-<!-- End page content -->
 </div>
 
-<!-- W3.CSS Container -->
 <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
 <script
   src="https://code.jquery.com/jquery-3.4.1.js"
